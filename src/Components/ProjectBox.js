@@ -2,56 +2,62 @@ import React from 'react';
 import { FaGithub } from "react-icons/fa";
 import { CgFileDocument } from "react-icons/cg";
 
-const ProjectBox = ({ projectPhoto, projectName }) => {
+const ProjectBox = ({ projectName }) => {
 
   const desc = {
-    // -------------------- YOUR 4 RESUME PROJECTS --------------------
+    FiveInARowDesc: "Built a strategy game using Python & Pygame with an adaptive AI. Implemented Minimax algorithm, Alpha-Beta Pruning, and Monte Carlo Tree Search (MCTS) to simulate intelligent gameplay scenarios.",
+    FiveInARowGithub: "https://github.com/your-username/repo-name",
+    FiveInARowWebsite: "",
 
-    FiveInARowDesc:
-      "A Python & Pygame-based AI strategy game implementing Minimax, Alpha-Beta Pruning, and Monte Carlo Tree Search (MCTS) with UCT. Supports adaptive AI and customizable board sizes.",
-    FiveInARowGithub: "https://dummy-link-1.com",
-    FiveInARowWebsite: "https://dummy-link-1.com",
+    P2PVoIPDesc: "Developed a serverless VoIP system using Python Sockets for real-time audio. Engineered low-latency UDP streaming and utilized multithreading to handle concurrent peer connections efficiently.",
+    P2PVoIPGithub: "https://github.com/your-username/repo-name",
+    P2PVoIPWebsite: "",
 
-    WebGamesDesc:
-      "Two interactive web games — Drum Kit (event-driven sound & animation) and Simon Memory Game (pattern generation, user validation, level progression).",
-    WebGamesGithub: "https://dummy-link-2.com",
-    WebGamesWebsite: "https://dummy-link-2.com",
+    WeatherWiseDesc: "Created a responsive weather app using React 19 and Vite. Integrated OpenWeatherMap API to fetch and display real-time temperature, humidity, and wind speed with asynchronous data handling.",
+    WeatherWiseGithub: "https://github.com/your-username/repo-name",
+    WeatherWiseWebsite: "https://your-demo-link.com",
 
-    P2PVoIPDesc:
-      "A decentralized peer-to-peer VoIP system enabling real-time audio calls without a central server. Includes UDP low-latency streaming, multithreading & a custom peer discovery tracker.",
-    P2PVoIPGithub: "https://dummy-link-3.com",
-    P2PVoIPWebsite: "https://dummy-link-3.com",
+    SimonGameDesc: "Designed an interactive memory game using HTML, CSS, and jQuery. Features complex DOM manipulation for game states, dynamic sequence generation, and instant audio-visual feedback.",
+    SimonGameGithub: "https://github.com/your-username/repo-name",
+    SimonGameWebsite: "https://your-demo-link.com",
 
-    SelfHealingDesc:
-      "A research-based analysis tool developed during internship to evaluate self-healing materials using structured testing, controlled loading cycles, formula-driven strength evaluation and recovery analysis.",
-    SelfHealingGithub: "", // No GitHub → button auto hides
-    SelfHealingWebsite: "https://dummy-link-4.com",
+    SelfHealingDesc: "Conducted R&D on asphalt pavement recovery during an internship at IIT Dharwad. Quantified a 37% strength improvement using statistical modeling and controlled loading cycle analysis.",
+    SelfHealingGithub: "",
+    SelfHealingWebsite: "",
 
-    // ---------------------------------------------------------------
+    SmartPavementDesc: "Awarded the Hyundai Hope Scholarship for designing a 'Smart Pavement' system. Proposed using piezoelectric sensors to harvest clean energy from vehicular movement on highways.",
+    SmartPavementGithub: "",
+    SmartPavementWebsite: "",
   };
 
-  let show = "";
+  let showGithub = "";
+  let showDemo = "";
+
   if (desc[projectName + "Github"] === "") {
-    show = "none";
+    showGithub = "none";
+  }
+  if (desc[projectName + "Website"] === "") {
+    showDemo = "none";
   }
 
   return (
     <div className='projectBox'>
-      <img className='projectPhoto' src={projectPhoto} alt="Project display" />
       <div>
         <br />
         <h3>{projectName}</h3>
         <br />
-        {desc[projectName + "Desc"]}
+        <p style={{ lineHeight: '1.6', fontSize: '17px' }}>
+            {desc[projectName + "Desc"]}
+        </p>
         <br />
 
-        <a style={{ display: show }} href={desc[projectName + "Github"]} target="_blank">
+        <a style={{ display: showGithub }} href={desc[projectName + "Github"]} target="_blank" rel="noopener noreferrer">
           <button className='projectbtn'>
             <FaGithub /> Github
           </button>
         </a>
 
-        <a href={desc[projectName + "Website"]} target="_blank">
+        <a style={{ display: showDemo }} href={desc[projectName + "Website"]} target="_blank" rel="noopener noreferrer">
           <button className='projectbtn'>
             <CgFileDocument /> Demo
           </button>

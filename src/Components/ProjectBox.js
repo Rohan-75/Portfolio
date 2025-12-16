@@ -6,20 +6,20 @@ const ProjectBox = ({ projectName }) => {
 
   const desc = {
     FiveInARowDesc: "Built a strategy game using Python & Pygame with an adaptive AI. Implemented Minimax algorithm, Alpha-Beta Pruning, and Monte Carlo Tree Search (MCTS) to simulate intelligent gameplay scenarios.",
-    FiveInARowGithub: "https://github.com/your-username/repo-name",
+    FiveInARowGithub: "https://github.com/Rohan-75/Five-in-a-row",
     FiveInARowWebsite: "",
 
     P2PVoIPDesc: "Developed a serverless VoIP system using Python Sockets for real-time audio. Engineered low-latency UDP streaming and utilized multithreading to handle concurrent peer connections efficiently.",
-    P2PVoIPGithub: "https://github.com/your-username/repo-name",
+    P2PVoIPGithub: "https://github.com/Rohan-75/Voice-over-IP",
     P2PVoIPWebsite: "",
 
     WeatherWiseDesc: "Created a responsive weather app using React 19 and Vite. Integrated OpenWeatherMap API to fetch and display real-time temperature, humidity, and wind speed with asynchronous data handling.",
-    WeatherWiseGithub: "https://github.com/your-username/repo-name",
-    WeatherWiseWebsite: "https://your-demo-link.com",
+    WeatherWiseGithub: "https://github.com/Rohan-75/Weather_App",
+    WeatherWiseWebsite: "https://rohan-75.github.io/Weather_App/",
 
     SimonGameDesc: "Designed an interactive memory game using HTML, CSS, and jQuery. Features complex DOM manipulation for game states, dynamic sequence generation, and instant audio-visual feedback.",
-    SimonGameGithub: "https://github.com/your-username/repo-name",
-    SimonGameWebsite: "https://your-demo-link.com",
+    SimonGameGithub: "https://github.com/Rohan-75/Simon-Memory-game",
+    SimonGameWebsite: "https://rohan-75.github.io/Simon-Memory-game/",
 
     SelfHealingDesc: "Conducted R&D on asphalt pavement recovery during an internship at IIT Dharwad. Quantified a 37% strength improvement using statistical modeling and controlled loading cycle analysis.",
     SelfHealingGithub: "",

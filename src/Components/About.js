@@ -10,25 +10,27 @@ const About = () => {
       <div className='AboutPage'>
         <div className='AboutText'>
           <h1 className='AboutTextHeading' >Get to <b>know</b> me!</h1>
-          <p>
           
-<div class="about">
-  Hi, my name is <b>Vivek Kumar</b> and I am from New Delhi, India.<br/>
-  I'm a <b>Full Stack Web Developer</b> and a final year student pursuing 
-  <b>B.Tech in Civil Engineering (Minor in CSE)</b> at IIT Dharwad.<br/><br/>
+          <div className="about">
+            <p>
+              Hi, I am <b>Vivek Kumar</b>, a pre-final year student at <b>IIT Dharwad</b>. <br />
+              I am pursuing B.Tech in Civil Engineering with a <b>Minor in Computer Science</b>.<br /><br />
 
-  I have worked as a <b>Research & Development Intern</b> at IIT Dharwad, 
-  where I performed structured material testing, data analysis, and research documentation 
-  for self-healing materials.<br/>
+              I am a passionate <b>Software Developer</b> with a strong aptitude for <b>Mathematical Logic</b> (RMO Qualified) and <b>Data Structures</b>.
+              My technical expertise lies in building scalable software solutions and full-stack applications.<br /><br />
 
-  I love building clean, functional, and user-centric projects — 
-  you can explore some of my work in the projects section.<br/><br/>
+              <b>Key Highlights of my journey:</b>
+              <ul>
+                <li style={{listStyleType:'none', marginBottom:'5px'}}>🚀 worked as a <b>Coding Prompt Engineer</b> at Remotasks, evaluating <b>LLM code</b> and applying RLHF strategies.</li>
+                <li style={{listStyleType:'none', marginBottom:'5px'}}>🏆 Awarded the <b>Hyundai Hope Scholarship</b> (₹62k) for innovative sustainable mobility ideas.</li>
+                <li style={{listStyleType:'none', marginBottom:'5px'}}>💻 Built complex projects like a <b>Peer-to-Peer VoIP system</b> and <b>AI-based Game logic</b> (Minimax Algorithm).</li>
+              </ul>
+              <br />
+              
+              I am always looking for new challenges in <b>Software Development</b> to apply my skills in solving real-world problems.
+            </p>
+          </div>
 
-  I am <b>open</b> to collaborations, internships, or software development roles where I can contribute and grow. 
-  Feel free to connect with me — links are available in the footer.<br/>
-</div>
-
-          </p>
         </div>
 
         <div>

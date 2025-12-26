@@ -25,7 +25,7 @@ const ProjectBox = ({ projectName }) => {
     SelfHealingGithub: "",
     SelfHealingWebsite: "",
 
-    SmartPavementDesc: "Awarded the Hyundai Hope Scholarship for designing a 'Smart Pavement' system. Proposed using piezoelectric sensors to harvest clean energy from vehicular movement on highways.",
+    SmartPavementDesc: "Awarded the Hyundai Hope Scholarship for conceptualizing a 'Smart Electrical Pavement' system. Proposed a sustainable infrastructure model utilizing Inductive Power Transfer (IPT) to enable wireless charging for electric vehicles, aimed at reducing urban carbon emissions.",
     SmartPavementGithub: "",
     SmartPavementWebsite: "",
   };

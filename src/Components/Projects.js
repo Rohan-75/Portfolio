@@ -12,6 +12,7 @@ const Projects = () => {
         <ProjectBox projectName="P2PVoIP" />
         <ProjectBox projectName="WeatherWise" />
         <ProjectBox projectName="SimonGame" />
+        <ProjectBox projectName="QRGenerator" />
 
         {/* --- CORE CIVIL PROJECTS --- */}
         <ProjectBox projectName="SelfHealing" />

@@ -13,7 +13,7 @@ const About = () => {
           
           <div className="about">
             <p>
-              Hi, I am <b>Vivek Kumar</b>, a pre-final year student at <b>IIT Dharwad</b>. <br />
+              Hi, I am <b>Vivek Kumar</b>, a Final year student at <b>IIT Dharwad</b>. <br />
               I am pursuing B.Tech in Civil Engineering with a <b>Minor in Computer Science</b>.<br /><br />
 
               I am a passionate <b>Software Developer</b> with a strong aptitude for <b>Mathematical Logic</b> (RMO Qualified) and <b>Data Structures</b>.

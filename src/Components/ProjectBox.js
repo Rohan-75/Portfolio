@@ -21,6 +21,11 @@ const ProjectBox = ({ projectName }) => {
     SimonGameGithub: "https://github.com/Rohan-75/Simon-Memory-game",
     SimonGameWebsite: "https://rohan-75.github.io/Simon-Memory-game/",
 
+    QRGeneratorDesc:
+      "Developed a web-based QR Code Generator allowing users to convert text or URLs into downloadable QR images. Implemented clean UI logic for instant generation and customization.",
+    QRGeneratorGithub: "https://github.com/Rohan-75/QR_GENERATOR",
+    // QRGeneratorWebsite: "https://your-demo-link.com",
+
     SelfHealingDesc: "Conducted R&D on asphalt pavement recovery during an internship at IIT Dharwad. Quantified a 37% strength improvement using statistical modeling and controlled loading cycle analysis.",
     SelfHealingGithub: "",
     SelfHealingWebsite: "",
